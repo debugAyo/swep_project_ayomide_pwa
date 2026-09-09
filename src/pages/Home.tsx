@@ -56,7 +56,10 @@ export default function Home() {
   return (
     <div className="shell">
       <header>
-        <strong>Offline Notes Lab</strong>
+        <div>
+          <strong>Offline Notes Lab</strong>
+          <p className="subtitle">By OLAJIDE AYOMIDE EVIDENCE | 2024/1/94964ET</p>
+        </div>
         <span>{online ? "Online" : "Offline"}</span>
       </header>
       <aside>
